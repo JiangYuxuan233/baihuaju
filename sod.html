@@ -25,7 +25,7 @@
       box-shadow: 0 25px 50px -12px rgba(6, 78, 59, 0.3);
     }
     .benefit-card:hover h5, .benefit-card:hover p, .benefit-card:hover .icon-tag { color: white !important; }
-    .bg-deco-line { position: absolute; left: 0; top: 15%; width: 4px; height: 400px; background: linear-gradient(to bottom, var(--emerald-800), transparent); }
+    .bg-deco-line { position: absolute; left: 0; top: 9%; width: 5px; height: 600px; background: linear-gradient(to bottom, var(--emerald-800), transparent); }
   </style>
 </head>
 <body class="text-slate-900">
@@ -45,13 +45,15 @@
     </div>
   </header>
 
-  <div class="fixed right-6 top-1/3 z-50 w-48 floating-card p-5 rounded-[2rem] shadow-2xl border border-emerald-50 hidden lg:block">
+  <div class="fixed right-6 top-[60%] z-50 w-48 floating-card p-5 rounded-[2rem] shadow-2xl border border-emerald-50 block">
+  <!--<div class="fixed inset-x-4 bottom-4 z-50 lg:right-6 lg:top-1/3 lg:bottom-auto lg:inset-x-auto w-auto lg:w-48 floating-card p-5 rounded-[2rem] shadow-2xl border border-emerald-50 block">-->
     <div class="text-[9px] font-black tracking-widest text-emerald-800 uppercase mb-3 text-center">Explore Product</div>
     <div class="h-24 bg-emerald-50 rounded-2xl mb-4 overflow-hidden">
         <img src="https://images.unsplash.com/photo-1550505393-5c4711395172?auto=format&fit=crop&q=80&w=400" class="w-full h-full object-cover">
     </div>
-    <p class="text-[11px] font-bold text-slate-800 text-center">寒地百花菊精华液<br><span class="text-[9px] font-normal text-emerald-600">90℃ 活性直达</span></p>
+    <p class="text-[11px] font-bold text-slate-800 text-center">百花菊SOD精华液<br><span class="text-[9px] font-normal text-emerald-600">90℃ 活性直达</span></p>
     <a href="product.html" class="mt-4 block bg-emerald-900 text-white text-center py-2.5 rounded-full text-[10px] font-bold hover:bg-emerald-800 transition">了解产品方案</a>
+  <!--</div>-->
   </div>
 
   <main class="max-w-6xl mx-auto px-6 py-16 relative">
@@ -59,11 +61,12 @@
 
     <section class="mb-32">
         <div class="inline-block px-3 py-1 bg-red-50 text-red-700 text-[10px] font-bold mb-6 rounded uppercase">Part 01 / The Crisis</div>
-        <h1 class="serif text-5xl lg:text-6xl font-bold leading-tight mb-12">百花菊SOD：自由基：<br/>隐藏在代谢背后的“铁锈”</h1>
+        <h1 class="serif text-5xl lg:text-6xl font-bold leading-tight mb-12">SOD到底是什么</h1>
         <div class="grid lg:grid-cols-2 gap-16">
             <div class="space-y-8 text-slate-600 leading-loose text-lg">
-                <p>想象一下，如果把身体比作一台精密的机器，那么<b>“自由基（Free Radicals）”</b>就是伴随机器运转产生的“碎屑”和“铁锈”。从科学角度看，自由基是带有一个或多个不配对电子的分子碎片，它们极度不稳定，会疯狂地从健康细胞（如DNA、蛋白质、脂肪）中抢夺电子。</p>
-                <p>这种掠夺过程被称为<b>“氧化应激”</b>。在现代生活中，厨房油烟、电离辐射、熬夜压力、甚至是不健康的饮食，都会在体内加速产生自由基。当自由基数量超过身体的清理能力时，细胞膜就会受到损伤，这就是衰老与许多健康问题的起点。</p>
+                <p><b>SOD是超氧化物歧化酶（Superoxide Dismutase）的英文缩写。在生物学和护肤领域，它被称为“抗氧化之母”或“人体内的第一道防线”。</p>
+                <p>它也是来自人体内的“原生防护英雄”：</b><br>SOD（超氧化物歧化酶）是目前科学发现的唯一能以自由基为底物的催化酶。它不是外来化学合成物，而是人体本身就含有的活性物质，是生物体内存在的一种关键天然抗氧化酶，它能催化有害的超氧化物自由基 O<sub>2</sub><sup>-</sup>    转化为更稳定的氧气 O<sub>2</sub> 和过氧化氢H<sub>2</sub>O<sub>2</sub> ，从而清除自由基，保护细胞免受氧化损伤，具有抗衰老、抗炎、抗辐射等重要作用，对维持机体健康至关关健。。</p>
+                <p><b>为什么它来自寒地百花菊：</b><br>百花菊生长在黑龙江 -30℃ 的极寒黑土地。为了在长期严酷的低温、强紫外线辐射等极端环境压力下存活，这种植物会在叶片里囤积极高浓度的SOD来对抗活性氧自由基对于细胞结构造成的损伤。避免细胞膜、蛋白质和DNA被破坏带来的严重生存危机。它是自然界的生物在漫长进化过程中形成的天然防御机制</p>
             </div>
             <div class="rounded-[3rem] overflow-hidden shadow-2xl"><img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=800"></div>
         </div>
@@ -71,24 +74,15 @@
 
     <section class="mb-32">
         <div class="inline-block px-3 py-1 bg-emerald-50 text-emerald-800 text-[10px] font-bold mb-6 rounded uppercase">Part 02 / The Defense</div>
-        <h2 class="serif text-4xl font-bold mb-8 text-emerald-950">SOD 到底是什么？</h2>
+        <h2 class="serif text-4xl font-bold mb-8 text-emerald-950">自由基：<br>  隐藏在代谢背后的“铁锈”</h2>
         <div class="grid lg:grid-cols-2 gap-16 items-center">
             <div class="rounded-[3rem] overflow-hidden shadow-xl order-2 lg:order-1"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800"></div>
             <div class="space-y-6 text-slate-600 text-lg order-1 lg:order-2">
-                <p><b>它其实是你体内的“原生防护英雄”：</b><br>SOD（超氧化物歧化酶）是目前科学发现的唯一能以自由基为底物的催化酶。它不是外来化学合成物，而是人体本身就含有的活性物质，专门负责清理自由基。</p>
-                <p><b>为什么它来自寒地百花菊？</b><br>百花菊生长在黑龙江 -30℃ 的极寒黑土地。为了在极端环境中存活，这种植物在叶片里囤积了极高浓度的 SOD。经过<b>宋娜老师团队 30 年</b>的科研攻关，这种大自然练就的生命精华，终于能以高活性形式被我们所用。</p>
+                <p>想象一下，如果把身体比作一台精密的机器，那么<b>“自由基（Free Radicals）”</b>就是伴随机器运转产生的“碎屑”和“铁锈”。从科学角度看，自由基是带有一个或多个不配对电子的分子碎片，它们极度不稳定，会疯狂地从健康细胞（如DNA、蛋白质、脂肪）中抢夺电子。</p>
+                <p>这种掠夺过程被称为<b>“氧化应激”</b>。在现代生活中，厨房油烟、电离辐射、熬夜压力、甚至是不健康的饮食，都会在体内加速产生自由基。当自由基数量超过身体的清理能力时，细胞膜就会受到损伤，这就是衰老与许多健康问题的起点。</p>
             </div>
         </div>
     </section>
-    <section class="mb-32">
-      <div class="inline-block px-3 py-1 bg-slate-50 text-slate-700 text-[10px] font-bold mb-6 rounded uppercase">Part 02.5 / The Term</div>
-      <h2 class="serif text-4xl font-bold mb-8 text-emerald-950">为什么我们强调“百花菊SOD”？</h2>
-      <div class="space-y-6 text-slate-600 leading-loose text-lg max-w-4xl">
-        <p><b>“百花菊SOD”不是一个空泛的概念。</b>它强调两件事：第一，SOD来源于寒地百花菊这一特定原料；第二，在提取与使用过程中，关键在于“活性留存”而不是单纯的配方堆叠。</p>
-        <p>因此，我们把“原料—机制—工艺—场景”连成一条线，让你能从科学层面理解：为什么它被关注，以及它适合哪些生活场景。</p>
-      </div>
-    </section>
-
 
     <section class="mb-32 py-24 bg-slate-50 rounded-[4rem] px-12 relative overflow-hidden">
         <h2 class="serif text-4xl font-bold mb-10 text-emerald-900">为什么只有 SOD 能真正解决它？</h2>
@@ -111,6 +105,7 @@
     </section>
 
     <section class="mb-32">
+        <div class="inline-block px-3 py-1 bg-blue-50 text-blue-700 text-[10px] font-bold mb-6 rounded uppercase">Part 03 / The Benefits</div>
         <div class="mb-16">
             <h2 class="serif text-4xl font-bold text-emerald-950 block mb-2">生命源动力：</h2>
             <h2 class="serif text-4xl italic text-emerald-600 block">当身体拥有了足够的 SOD</h2>
@@ -133,22 +128,40 @@
                 <p class="text-sm text-slate-500 leading-loose">针对现代人的电子辐射伤害，百花菊SOD具有吸收紫外线、抗辐射的独特天赋。它能降低耗氧量、抗疲劳，全面增强人体免疫系统的战斗力。</p>
             </div>
         </div>
+
+        <div class="mt-16 mb-32 bg-emerald-50 p-12 rounded-[4rem] text-center max-w-7xl mx-auto">
+          <h4 class="serif text-2xl font-bold mb-6 italic text-emerald-950 text-balance">“我们不追求永生，但我们追求体面地老去。”</h4>
+          <p class="text-slate-600 leading-loose text-lg">摄入足够的百花菊SOD，不是为了让你的器官停止运作，而是让你的衰老过程放慢脚步。这种源自黑土地极端环境下的生命意志，最终会转化为守护您身体的坚固铠甲。</p>
+        </div>
     </section>
 
-    <div class="mb-32 bg-emerald-50 p-12 rounded-[4rem] text-center max-w-4xl mx-auto">
-        <h4 class="serif text-2xl font-bold mb-6 italic text-emerald-950 text-balance">“我们不追求永生，但我们追求体面地老去。”</h4>
-        <p class="text-slate-600 leading-loose text-lg">摄入足够的百花菊SOD，不是为了让你的器官停止运作，而是让你的衰老过程放慢脚步。这种源自黑土地极端环境下的生命意志，最终会转化为守护您身体的坚固铠甲。</p>
-    </div>
-
-    <section class="max-w-3xl mb-24">
-        <h2 class="serif text-3xl font-bold mb-12 text-emerald-950">关于 SOD 的疑问解答</h2>
+    <section class="max-w-5xl mb-24 mx-auto px-4">
+        <h2 class="serif text-3xl font-bold mb-16 text-emerald-950">关于 SOD 的疑问解答</h2>
         <div class="space-y-4">
-            <details class="group bg-white p-6 rounded-3xl border border-slate-100 shadow-sm" open>
-                <summary class="flex justify-between items-center font-bold cursor-pointer list-none text-emerald-900">
+            <details class="group bg-white p-6 rounded-3xl border border-slate-200 shadow-sm" >
+                <summary class="flex justify-between items-center text-lg font-bold cursor-pointer list-none text-emerald-900">
                     为什么普通蔬菜里的 SOD 很难起效？
                     <span class="group-open:rotate-180 transition">↓</span>
                 </summary>
                 <p class="mt-4 text-sm text-slate-500 leading-loose">普通的 SOD 极度怕热且易受胃酸破坏。寒地百花菊萃取的 SOD 具备独特的抗逆性，在 90℃ 高温环境下 120 分钟活性无损，保证了其能真正被人体利用。</p>
+            </details>
+        </div>
+        <div class="space-y-4">
+            <details class="group bg-white p-6 rounded-3xl border border-slate-200 shadow-sm" >
+                <summary class="flex justify-between items-center text-lg font-bold cursor-pointer list-none text-emerald-900">
+                    长期使用“百花菊SOD”会有副作用吗？
+                    <span class="group-open:rotate-180 transition">↓</span>
+                </summary>
+                <p class="mt-4 text-sm text-slate-500 leading-loose">不会。SOD 本身就是人体内天然存在的一种酶，但随着年龄增长，人体自身合成 SOD 的能力会下降。我们通过外补的方式，帮助皮肤找回年轻时的代谢水平，这是一种底层健康的调理，而非化学激素产生的即时假象</p>
+            </details>
+        </div>
+        <div class="space-y-4">
+            <details class="group bg-white p-6 rounded-3xl border border-slate-200 shadow-sm" >
+                <summary class="flex justify-between items-center text-lg font-bold cursor-pointer list-none text-emerald-900">
+                    维生素C也可以抗氧化，SOD和维生素C有什么区别？
+                    <span class="group-open:rotate-180 transition">↓</span>
+                </summary>
+                <p class="mt-4 text-sm text-slate-500 leading-loose">维生素C是来自外部的非酶抗氧化剂，反应完自己就会失效。而SOD是来自生物的催化剂，中和自由基的速度极快，且自身不被消耗，修复细胞的效率高出8000倍</p>
             </details>
         </div>
     </section>
@@ -179,7 +192,7 @@
 </main>
 
   <footer class="bg-slate-50 py-12 border-t border-slate-200 text-center">
-    <div class="max-w-7xl mx-auto px-6 text-[10px] text-slate-400 uppercase tracking-widest">© 2024 普春堂 | 宋娜老师团队 30 年科研成果</div>
+    <div class="max-w-7xl mx-auto px-6 text-[10px] text-slate-400 uppercase tracking-widest">© 2024 普春堂 | 研究团队 30 年科研成果</div>
   </footer>
 </body>
 </html>
